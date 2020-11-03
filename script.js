@@ -1,3 +1,18 @@
+// 4th part
+
+$('p').css('background','purple');
+
+$('p').text('<strong>hello world</strong>');
+$('p').html('<strong>hello world</strong>');
+$('p').append('<strong>another</strong>');
+
+
+$('button').click(()=> {
+    $('.first').toggleClass('hidden');
+})
+
+
+//from first part to third
 console.log("This is JaBaScript;)");
 
 let colors = ["orange", "blue", "green", "purple"];
