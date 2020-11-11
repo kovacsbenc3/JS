@@ -64,5 +64,32 @@ colors.forEach(color => {
 console.log(color);
 });
 
+
+
+for (let i=0; i<= 20; i++){
+    if ( i%2 ==0){
+        console.log(i);
+    }
+}
+
+
 console.log("END OF THE CODE");
 
+let add = (a, b) => {
+    return a + b;  // the return keyword will give you back the result
+  };
+  
+  console.log(add(1, 2))
+
+let udv = nev => {
+    console.log(`szevasz ${nev}`);
+}
+
+udv("ASD");
+udv("Bela");
+
+
+  let myNumbers= [10,20,30,50];
+  myNumbers.forEach((number) =>{
+      console.log(number);
+  });
